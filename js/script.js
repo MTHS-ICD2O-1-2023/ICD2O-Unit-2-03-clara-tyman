@@ -1,7 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2024 Clara Tyman All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Clara Tyman
+// Created on: Mar 2024
 // This file contains the JS functions for index.html
 
 
@@ -10,10 +10,10 @@
  */
 function enterClicked() {
   // input
-  const streetname = document.getElementById("street-name").value
-  const streetnumber = parseInt(document.getElementById("street-number").value)
+  const streetname = document.getElementById("Street-name").value
+  const streetnumber = parseInt(document.getElementById("Street-number").value)
 
   // output
   document.getElementById("user-info").innerHTML =
-    "Your info is: " + streetname + streetnumber + "."
+    "Your address is: " + streetnumber + " " + streetname + "."
 }
